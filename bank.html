@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Bank</title>
+<style>
+button             
+{
+font-style: italic;
+background-color: rgba(237, 121, 121, 0);
+
+}                   
+.container1
+{
+height: 90px;      
+display: flex;
+justify-content: space-between;
+background-color:  rgba(237, 121, 121, 0);    
+align-items: center;  
+}
+img
+{
+margin-left: 50px;
+}
+.box
+{
+display: flex;
+justify-content: space-evenly;
+width: 600px;                    
+}
+@media(max-width:900px)
+{
+.box
+{
+visibility: hidden;
+display: none;                    
+}             
+.container
+{
+justify-content: center;                    
+}       
+}
+
+</style>
+</head>
+<body background="bank.png">
+<div class="container1">
+<img src="img.png" width="70px" height="70px"/>
+
+<div class="box">
+         
+<button><a href="#">Details</a></button>    
+<button><a href="loans.html">Loans</a></button>
+<button><a href="#">Services</a></button>
+<button><a href="Login.html">Login</a></button>
+
+</div>  
+       
+</body>
+</html>
